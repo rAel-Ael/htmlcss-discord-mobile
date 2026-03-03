@@ -1,0 +1,22 @@
+* {
+  margin: 0;                /*reset css*/
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {                /*messo per contenere la struttura a 512px*/
+    width: 512px;          
+    padding: 40px 24px;
+}
+
+.centro{
+
+}
+
+.titolo{
+
+}
+
+.card{
+    
+}
