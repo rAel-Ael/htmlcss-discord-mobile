@@ -1,55 +1,66 @@
 * {
-  margin: 0;                /*reset css*/
+  margin: 0;                 /* reset css */
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-    background: linear-gradient(180deg, #1e1f4f, #2b2d72);
-    font-family: "DM Sans", sans-serif;
-    display: flex;
-    justify-content: center;
-    color: white;
+  background: linear-gradient(180deg, #1e1f4f, #2b2d72);
+  font-family: "DM Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  color: white;
 }
 
-.container {           /*messo per contenere la struttura a 512px*/
-    width: 512px;      
-    padding: 40px 24px;
+.container {
+  width: 100%;
+  max-width: 512px;
+  padding: 40px 24px;
 }
 
-.centro{
-    text-align: center;
-    margin-bottom: 60px;
+.centro {
+  text-align: center;
+  margin-bottom: 60px;
 }
 
-.titolo{
-    font-family: "Sigmar", sans-serif;
-    font-size: 36px;
-    line-height: 1.1;
-    margin-bottom: 20px;
-}
-.buttons{
-    display: flex;
-    flex-direction: column;
-    
-    
+.titolo {
+  font-family: "Sigmar", sans-serif;
+  font-size: 36px;
+  line-height: 1.1;
+  margin-bottom: 20px;
 }
 
-.btchiaro{
-    background: white;
-    color: black;
-    border-radius: 40px;
-}
-.btscuro{
-    background: #5865f2;
-    color: white;
-    border-radius: 40px;
-}
-.card{
-
-
-}
 .text1 {
   font-size: 16px;
   margin-bottom: 30px;
 }
 
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; 
+}
+
+.btn {
+  padding: 16px;
+  border-radius: 40px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.chiaro {
+  background: #e6dbdb;
+  color: black;
+}
+
+.scuro {
+  background: #5865f2;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
