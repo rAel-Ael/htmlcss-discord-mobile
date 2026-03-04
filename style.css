@@ -64,3 +64,21 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.card{
+    position: relative;
+    background: #7d89af;
+    padding: 40px 24px;
+    border-radius: 30px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+.pick {
+    border-radius: 30px;
+}
+
+.icons {
+    position: absolute;
+    
+   
+}
